@@ -1,0 +1,3 @@
+---
+# defaults file for k6
+download_url: https://dl.k6.io/rpm/repo.rpm

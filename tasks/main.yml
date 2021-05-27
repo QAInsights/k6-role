@@ -1,0 +1,20 @@
+---
+# tasks file for k6
+- name: Install k6 from rpm
+    dnf:
+      name: {{ download_url }}
+      state: present
+      disable_gpg_check: yes
+
+  - name: Install k6
+    dnf:
+      name: k6
+      state: present
+
+  - name: Validate k6
+    command: 'k6 version'
+    register: output_k6_install
+
+  - name: Print k6 version
+    debug:
+      var: output_k6_install.stdout_lines
