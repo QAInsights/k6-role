@@ -2,7 +2,7 @@
 # tasks file for k6
 - name: Install k6 from rpm
     dnf:
-      name: {{ download_url }}
+      name: "{{ download_url }}"
       state: present
       disable_gpg_check: yes
 
