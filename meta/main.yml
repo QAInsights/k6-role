@@ -30,7 +30,7 @@ galaxy_info:
   platforms:
   - name: CentOS
     versions:
-    - all
+    - 8.3
 
   galaxy_tags: 
     - k6
