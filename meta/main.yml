@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: k6-role
   author: NaveenKumar Namachivayam
   description: Ansible role to install k6
   company: QAInsights
