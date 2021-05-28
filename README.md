@@ -1,4 +1,4 @@
-Role Name
+k6
 =========
 
 An Ansible role to install [k6](https://github.com/k6io/k6) in CentOS.
