@@ -27,8 +27,9 @@ Including an example of how to use your role (for instance, with variables passe
 
     - name: k6
       hosts: servers
+      become: yes
       roles:
-        - k6
+        - qainsights.k6_role
 
 License
 -------
